@@ -38,7 +38,7 @@ const Cart = () => {
         <CartProductDetail priceMap={priceMap} cartItems={cartItems} totalPrice={totalPrice} />
       </div>
       <div className="delivery-slogan">
-      <img src='./src/assets/icon-carbon-neutral.svg' role='img' aria-label='icon-carbon-meutral-icon' />
+      <img src='./assets/icon-carbon-neutral.svg' role='img' aria-label='icon-carbon-meutral-icon' />
       <p className="delivery-description">
       This is a <span>carbon-neutral</span> delivery
       </p>  
@@ -48,7 +48,7 @@ const Cart = () => {
       </div>
       </> :
         <div className="empty-cart">
-        <img src='./src/assets/illustration-empty-cart.svg' role='img' aria-label='illustration-empty-cart' />
+        <img src='./assets/illustration-empty-cart.svg' role='img' aria-label='illustration-empty-cart' />
         <p className="empty-cart-msg">Your added items would appear here</p>
     </div>
       }
