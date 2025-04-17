@@ -26,7 +26,7 @@ const OrderModal = () => {
       <Modal isOpen={isModalOpen} onClose={handleClose} orderDetails={orderDetails}>
             {orderDetails && (
                 <div className='checkout-modal'>
-                    <img src='./src/assets/icon-order-confirmed.svg' role='img' aria-label='icon-order-confirmed' />
+                    <img src='./assets/icon-order-confirmed.svg' role='img' aria-label='icon-order-confirmed' />
                     <h2>Order Confirmed</h2>
                     <p>We hope you enjoyed your food!</p>
                     <div className='product-details-modal'>
